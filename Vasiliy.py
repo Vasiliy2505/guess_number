@@ -6,6 +6,7 @@ def calculate_sum_and_average(numbers):
     average = total_sum / len(numbers)
     return total_sum, average
 
+
 numbers = [10, 20, 30, 40, 50]
 total, avg = calculate_sum_and_average(numbers)
 print(f'Сумма чисел: {total}')
